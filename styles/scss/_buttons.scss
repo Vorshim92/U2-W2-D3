@@ -3,8 +3,9 @@
   background-color: $btn1-color;
   border-radius: 5px;
   border: none;
-  margin: 3px;
-  padding: 10px;
+  font-weight: 600;
+  padding: 0.8rem;
+  cursor: pointer;
   &:hover {
     transform: scale(1.02);
   }
@@ -14,8 +15,9 @@
   background-color: $btn2-color;
   border-radius: 5px;
   border: none;
-  padding: 10px;
-  margin: 3px;
+  font-weight: 600;
+  padding: 0.8rem;
+  cursor: pointer;
   &:hover {
     transform: scale(1.02);
   }
@@ -25,8 +27,9 @@
   background-color: $btn3-color;
   border-radius: 5px;
   border: none;
-  margin: 3px;
-  padding: 10px;
+  font-weight: 600;
+  padding: 0.8rem;
+  cursor: pointer;
   &:hover {
     transform: scale(1.02);
   }

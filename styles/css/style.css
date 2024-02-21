@@ -1,3 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 .animation {
   opacity: 0;
   transform: translateY(-30px);
@@ -15,8 +26,9 @@
   background-color: #0e6cff;
   border-radius: 5px;
   border: none;
-  margin: 3px;
-  padding: 10px;
+  font-weight: 600;
+  padding: 0.8rem;
+  cursor: pointer;
 }
 .btn1:hover {
   transform: scale(1.02);
@@ -27,8 +39,9 @@
   background-color: #ff8700;
   border-radius: 5px;
   border: none;
-  padding: 10px;
-  margin: 3px;
+  font-weight: 600;
+  padding: 0.8rem;
+  cursor: pointer;
 }
 .btn2:hover {
   transform: scale(1.02);
@@ -39,15 +52,12 @@
   background-color: #4caf50;
   border-radius: 5px;
   border: none;
-  margin: 3px;
-  padding: 10px;
+  font-weight: 600;
+  padding: 0.8rem;
+  cursor: pointer;
 }
 .btn3:hover {
   transform: scale(1.02);
-}
-
-* {
-  box-sizing: border-box;
 }
 
 body {
@@ -73,6 +83,8 @@ header nav {
 }
 header nav div {
   display: flex;
+  align-items: center;
+  margin-left: 100px;
 }
 header nav div img {
   margin-right: 10px;
@@ -85,9 +97,13 @@ header nav div h1 {
 header nav ul {
   list-style-type: none;
   display: flex;
+  margin-right: 50px;
 }
 header nav ul li {
   padding-inline: 25px;
+}
+header nav ul li:hover {
+  transform: scale(1.5);
 }
 header a {
   text-decoration: none;
@@ -107,6 +123,10 @@ header .hero-section {
 header .hero-section .hero-text {
   width: 50%;
   padding-inline: 50px;
+}
+header .hero-section .hero-text h1,
+header .hero-section .hero-text p {
+  margin-bottom: 15px;
 }
 header .hero-section img {
   translate: 0 10%;
