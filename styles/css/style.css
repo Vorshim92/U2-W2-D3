@@ -9,6 +9,54 @@
   font-family: "Roboto", sans-serif;
 }
 
+.padding-inline.sm {
+  padding-inline: 12px;
+}
+
+.padding-inline.normal {
+  padding-inline: 16px;
+}
+
+.padding-inline.md {
+  padding-inline: 24px;
+}
+
+.padding-inline.lg {
+  padding-inline: 36px;
+}
+
+.padding-inline.xl {
+  padding-inline: 48px;
+}
+
+.padding-inline.xxl {
+  padding-inline: 160px;
+}
+
+.padding-block.sm {
+  padding-block: 12px;
+}
+
+.padding-block.normal {
+  padding-block: 16px;
+}
+
+.padding-block.md {
+  padding-block: 24px;
+}
+
+.padding-block.lg {
+  padding-block: 36px;
+}
+
+.padding-block.xl {
+  padding-block: 48px;
+}
+
+.padding-block.xxl {
+  padding-block: 160px;
+}
+
 .animation {
   opacity: 0;
   transform: translateY(-30px);

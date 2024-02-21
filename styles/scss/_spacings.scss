@@ -6,3 +6,12 @@ $spacing-sizes: (
   xl: 48px,
   xxl: 160px,
 );
+
+$display: "inline", "block";
+@each $direction in $display {
+  @each $size, $value in $spacing-sizes {
+    .padding-#{$direction}.#{$size} {
+      padding-#{$direction}: $value;
+    }
+  }
+}
