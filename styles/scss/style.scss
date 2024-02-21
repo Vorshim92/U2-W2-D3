@@ -1,0 +1,76 @@
+@import "resets";
+@import "colors";
+@import "fonts";
+@import "spacings";
+@import "animations";
+@import "buttons";
+@import "mixins";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: #73023bbd;
+  margin: 15px;
+}
+
+header {
+  nav {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 15px 16px 15px 4px rgb(58 15 126);
+
+    padding: 10px;
+    background-color: $hero-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    div {
+      display: flex;
+      img {
+        margin-right: 10px;
+        width: 60px;
+      }
+      h1 {
+        margin-left: 10px;
+        color: #28064f;
+      }
+    }
+    ul {
+      list-style-type: none;
+      display: flex;
+      li {
+        padding-inline: 25px;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $text-color;
+  }
+  .hero-section {
+    border: none;
+    border-radius: 50px;
+    box-shadow: 15px 16px 15px 4px rgb(58 15 126);
+
+    background-color: $hero-color;
+    color: #28064f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    .hero-text {
+      width: 50%;
+      padding-inline: 50px;
+    }
+    img {
+      translate: 0 10%;
+      border-radius: 30px;
+      box-shadow: 15px 16px 15px 4px rgb(58 15 126);
+      border: 2px solid #9436ff;
+    }
+  }
+}
